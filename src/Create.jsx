@@ -2,7 +2,6 @@
 import axios from "axios";
 import { useState } from "react";
 import Footer from "./Footer";
-import { Filter } from "bad-words";
 
 function Create() {
     const [title, setQuote] = useState("");
