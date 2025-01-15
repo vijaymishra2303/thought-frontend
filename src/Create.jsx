@@ -8,14 +8,6 @@ function Create() {
     const [title, setQuote] = useState("");
     const [body, setBody] = useState("");
 
-    // Initialize the profanity filter
-    const filter = new Filter();  //npm install bad-words this is command
-    filter.addWords('fuck', 'shit', 'bitch', 'bastard', 'asshole', 'damn', 'crap', 'dick', 'Vulgar','gandu','gandoo','bhadwa','bhadawa','bhadva','bhadava',
-        'pussy', 'cunt', 'slut', 'whore', 'faggot', 'nigger', 'cock', 'prick', 'dick','pig','boob','boobs','बूब्स',
-        'motherfucker', 'son of a bitch', 'bollocks', 'bugger', 'twat',    'चूतिया', 'मादरचोद', 'बहनचोद', 'साला', 'गांड', 'लौड़ा', 'लौंडी','सुअर','tatti','poop','kutta','dog','doggy','kutti', 
-        'बोसड़ीके', 'हरामी', 'कमीना', 'भोसड़ीवाला', 'गांडू', 'भड़वा', 'लंड के','मम्मे',
-        'भोसड़ी', 'चुत', 'चूत', 'रंडी', 'झाड़', 'लवड़ा', 'चोदा','land ke', 'landke','Chutiya','Chutia','Madarchod','motherfucher','Behenchod','Sala','Gaand','ass','Lauda','loda','land ke','lawda','dick','Laundi','lodi','Bosadike','bsdk','Harami','basterd','Kamina','Bhosadivala','bhosadi','Chut','Choot','Randi','whore','Choda'
-    );
 
 
     // Function to validate text input (only allows letters and spaces)
